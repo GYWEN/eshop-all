@@ -13,6 +13,11 @@ public class AspecJConfig {
         System.err.println("This us -----------------");
     }
 
+
+    public void ca(){
+
+    }
+
     @Pointcut("execution(* *(..))")
     public void print(){
 
