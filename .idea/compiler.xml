@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eshop-inventory" />
+        <module name="eshop-mq" />
+        <module name="ZooKeeper-Book" />
+        <module name="eshop-inventory (1) (com.roncoo.eshop)" />
+        <module name="eshop-zookeeper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eshop-inventory" target="1.8" />
+      <module name="eshop-inventory (1) (com.roncoo.eshop)" target="1.8" />
+      <module name="eshop-mq" target="1.8" />
+      <module name="eshop-parent" target="1.8" />
+      <module name="eshop-zookeeper" target="1.8" />
+      <module name="ZooKeeper-Book" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eshop-inventory" options="-parameters" />
+      <module name="eshop-mq" options="-parameters" />
+      <module name="eshop-parent" options="-parameters" />
+      <module name="eshop-zookeeper" options="-parameters" />
+    </option>
+  </component>
+</project>

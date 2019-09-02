@@ -1,0 +1,33 @@
+
+
+##DataSource
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: abcgao269903
+    url: jdbc:mysql://localhost:3306/eshop
+  redis:
+    lettuce:
+      pool:
+        max-wait: -1
+        max-idle: 10
+        min-idle: 0
+        max-active: 10
+    cluster:
+      nodes: 192.168.0.110:6379,192.168.0.111:6379,192.168.0.112:6379,192.168.0.110:6380,192.168.0.111:6380,192.168.0.112:6380
+      max-redirects: 3
+
+####自定义信息
+#org:
+#  eshop:
+#    max-wait: -1
+#    max-idle: 10
+#    min-idle: 0
+#    max-active: 10
+#    max-redirects: 3
+#    max-attempts:10
+#    nodes: 192.168.0.110:6379,192.168.0.111:6379,192.168.0.112:6379,192.168.0.110:6380,192.168.0.111:6380,192.168.0.112:6380
+
+server:
+  port: 8801

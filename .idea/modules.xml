@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-book-example-master/ZooKeeper-Book.iml" filepath="$PROJECT_DIR$/zookeeper-book-example-master/ZooKeeper-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/eshop.iml" filepath="$PROJECT_DIR$/.idea/eshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-inventory/eshop-inventory.iml" filepath="$PROJECT_DIR$/eshop-inventory/eshop-inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-inventory-lesson/eshop-inventory (1) (com.roncoo.eshop).iml" filepath="$PROJECT_DIR$/eshop-inventory-lesson/eshop-inventory (1) (com.roncoo.eshop).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-mq/eshop-mq.iml" filepath="$PROJECT_DIR$/eshop-mq/eshop-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-parent.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-zookeeper/eshop-zookeeper.iml" filepath="$PROJECT_DIR$/eshop-zookeeper/eshop-zookeeper.iml" />
+    </modules>
+  </component>
+</project>
